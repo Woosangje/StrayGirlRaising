@@ -8,4 +8,4 @@ Unity에서 런타임 시 실행되는 기즈모를 그릴 수 있는 함수이
 07/15 일반공격 수정, 몬스터 스폰(더 다듬어야함)<br>
 07/16 백분율을 소수점으로 출력하는법<br> 
 ((float)현재경험치 / (float)최대경험치);  //int를 (float)수식해줘야 소수점이 출력된다.<br>
-exp_Text.text = _exp.ToString("P"); //결과 00.00% 소수점 2자리까지 작동 됨
+exp_Text.text = (_value.Equals(1) ? "Finished.. " : "Loading.. ") + _exp.ToString("P"); //결과 00.00% 소수점 2자리까지 작동 됨
