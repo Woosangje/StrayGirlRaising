@@ -13,3 +13,4 @@ exp_Text.text = (_value.Equals(1) ? "Finished.. " : "Loading.. ") + _exp.ToStrin
 07/20 스테이지 이동 UI제작<br>
 07/21 능력 구매 ui제작 구매시 소모골드의 변수명짓기가 너무 어렵다~<br>
 07/22 능력구매 변수짓기,구매완료, 사망시 UI연결 ,조이스틱 연결<br>
+07/23 몬스터 추가 SpawnManager, 씬이동 체력수정, 마나체력리젠 
