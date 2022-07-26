@@ -15,4 +15,5 @@ exp_Text.text = (_value.Equals(1) ? "Finished.. " : "Loading.. ") + _exp.ToStrin
 07/22 능력구매 변수짓기,구매완료, 사망시 UI연결 ,조이스틱 연결<br>
 07/23 몬스터 추가 SpawnManager, 씬이동 체력수정, 마나체력리젠<br>
 07/24 박쥐 원거리공격 구현, 아이템 오브젝트 풀링 <br>
-07/25 스킬추가,
+07/25 스킬추가<br>
+07/26 작업중단
